@@ -1,0 +1,36 @@
+.container {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.model {
+    position: relative;
+}
+
+.glasses {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(50%,50%);
+    width: 300px;
+}
+
+.item {
+    text-align: left;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.item img {
+    width: 200px;
+    margin-right: 15px;
+    border: 1px solid;
+}
+
+.item img:hover{
+    width: 200px;
+    margin-right: 15px;
+    border: 2px solid red;
+}
