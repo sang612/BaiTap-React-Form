@@ -1,12 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import BaiTapThucHanhLayout from './BaiTapThucHanhLayout/BaiTapThucHanhLayout';
-import Change_glasses from './BaiTapGlasses/change_glasses';
+import ShoesShop from './BaiTapShoesShop/ShoesShop';
+// import BaiTapThucHanhLayout from './BaiTapThucHanhLayout/BaiTapThucHanhLayout';
+// import Change_glasses from './BaiTapGlasses/change_glasses';
 
 function App() {
   return (
     <div className="App">
-      <Change_glasses />
+      <ShoesShop/>
     </div>
   );
 }
