@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Pony";
+  src: local("Pony"), url("../fonts/Pony.ttf") format("truetype");
+}
+
+* {
+  font-family: "Pony";
+}
+
+.contain {
+  background-position: 0 -200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 300px 200px 300px;
+}
+
+.contain h1 {
+    font-size: 90px;
+}
+
+.contain button:nth-child(1) {
+    padding: 50px;
+    background-color: #0f4feb;
+    color: #fff;
+    border-radius: 10px;
+    border: 5px solid #0feb1a;
+}
+
+.contain button:nth-child(1):hover {
+    border: 5px solid #eb0f0f;
+}
+
+.contain p {
+    font-size: 30px;
+}
